@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>6 - Prompt 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="228" height="103"></rect>
+        <rect id="path-3" x="0" y="0" width="620" height="600" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mockups---No-bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6---Prompt-1">
+            <g id="Prompts-/-Info-2" transform="translate(0.000000, 941.000000)">
+                <rect id="Rectangle-2" fill="#246DC4" x="0" y="55" width="1440" height="28"></rect>
+                <rect id="Rectangle-6-Copy" fill="#246DC4" x="56" y="0" width="220" height="58" rx="5"></rect>
+                <text id="Imaging" font-family="OpenSans, Open Sans" font-size="24" font-weight="normal" fill="#F6F6F6">
+                    <tspan x="121.269531" y="39">Imaging</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(1097.000000, 390.000000)">
+                <g id="Icons-/-Arrow" transform="translate(73.000000, 0.000000)">
+                    <rect id="Rectangle-3" x="0" y="0" width="128" height="128"></rect>
+                    <path d="M90.1152257,40.5039803 C90.1152277,40.5026538 90.1152288,40.501327 90.1152288,40.5 C90.1152288,39.1096621 88.9977009,38 87.6191604,38 L40.4960684,38 C39.1126109,38 38,39.1192881 38,40.5 C38,41.8903379 39.1175279,43 40.4960684,43 L85.1152288,43 L85.1152288,87.6310512 C85.1152288,89.0145086 86.2345169,90.1271195 87.6152288,90.1271195 C89.0055667,90.1271195 90.1152288,89.0095917 90.1152288,87.6310512 L90.1152288,40.5079592 C90.1152288,40.5066321 90.1152277,40.5053054 90.1152257,40.5039789 Z" id="Combined-Shape" fill-opacity="0.7" fill="#F6F6F6" fill-rule="evenodd" transform="translate(64.057614, 64.063560) rotate(45.000000) translate(-64.057614, -64.063560) "></path>
+                </g>
+                <text id="NEXT:-Incision-Site" font-family="OpenSans, Open Sans" font-size="32" font-weight="normal" fill="#F6F6F6">
+                    <tspan x="0.8203125" y="202">NEXT: Incision Site</tspan>
+                </text>
+            </g>
+            <text id="2:40-PM" font-family="OpenSans, Open Sans" font-size="32" font-weight="normal" fill="#F6F6F6">
+                <tspan x="56.0625" y="90">2:40 PM</tspan>
+            </text>
+            <g id="Patient-Info" transform="translate(1156.000000, 0.000000)">
+                <g id="Prompts-/-Info" transform="translate(0.000000, 103.000000)">
+                    <rect id="Rectangle-6-Copy" fill="#246DC4" x="0" y="0" width="228" height="58"></rect>
+                    <text id="Patient-Info" font-family="OpenSans, Open Sans" font-size="24" font-weight="normal" fill="#F6F6F6">
+                        <tspan x="49.3535156" y="40">Patient Info</tspan>
+                    </text>
+                </g>
+                <g id="Prompt-/-Patient-Info">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle" fill="#07172B" xlink:href="#path-1"></use>
+                    <text id="160/20" mask="url(#mask-2)" font-family="OpenSans, Open Sans" font-size="32" font-weight="normal" fill="#F6F6F6">
+                        <tspan x="100.382812" y="78">160/20</tspan>
+                    </text>
+                    <g id="Group-2" mask="url(#mask-2)">
+                        <g transform="translate(24.000000, 19.000000)">
+                            <text id="90" fill="none" font-family="OpenSans, Open Sans" font-size="32" font-weight="normal">
+                                <tspan x="0.203125" y="59" fill="#F6F6F6">90</tspan>
+                            </text>
+                            <path d="M18.5,2.96267841 C18.2534945,2.32625163 17.1060907,0 13.5037959,0 C9.33064619,0 8.1768803,4.09756098 9.55028565,7.2195122 C10.8267415,10.3414634 18.5555034,16 18.5555034,16 C18.5555034,16 26.1732585,10.3414634 27.4497144,7.2195122 C28.8231197,4.09756098 27.6693538,0 23.4962041,0 C19.8939093,0 18.7465055,2.32625163 18.5,2.96267841 Z" id="Combined-Shape" fill="#FF6666" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <text id="SYS-/-DIA" mask="url(#mask-2)" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" letter-spacing="0.74999994" fill="#F6F6F6">
+                        <tspan x="110" y="35">SYS / DIA</tspan>
+                    </text>
+                    <rect id="Divider" fill-opacity="0.5" fill="#D8D8D8" mask="url(#mask-2)" x="85" y="0" width="1" height="103"></rect>
+                </g>
+            </g>
+            <g id="Cards" transform="translate(402.000000, 173.000000)">
+                <g>
+                    <g id="1">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                            <use fill="#08182B" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                    <g id="Card" transform="translate(42.000000, 58.000000)" fill="#F6F6F6">
+                        <text id="ANAESTHESIA" font-family="OpenSans-Bold, Open Sans" font-size="30" font-weight="bold" letter-spacing="0.74999994">
+                            <tspan x="162" y="32">ANAESTHESIA</tspan>
+                        </text>
+                        <text id="Are-the-patient’s-vi" font-family="OpenSans, Open Sans" font-size="36" font-weight="normal">
+                            <tspan x="27.2324219" y="238">Are the patient’s vitals within </tspan>
+                            <tspan x="157.407227" y="287">normal limits</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

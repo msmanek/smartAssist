@@ -1,23 +1,22 @@
 // Myo Code
 Myo.connect();
-
-Myo.on('arm_synced', function () {
-    $('#introduction').hide();
-    $('#successful-connection').show();
-});
-
-Myo.on('status', function(data){
-    // $('.events').prepend(JSON.stringify(data, null, 2));
-})
+var stepCounter = 1;
 
 
 //Whenever we get a pose event, we'll update the image sources with the active version of the image
 Myo.on('pose', function(pose){
     console.log(pose);
-    if (pose === 'fist') {
-        $('#introduction').after( '<p>Test</p>' );
-    
-}    // $('img.' + pose).attr('src', 'img/' + pose + '_active.png');
+    if (pose === 'wave_out') {
+        $('#step-' + stepCounter).hide();
+        $('#step-' + (stepCounter + 1)).show();
+        stepCounter++;
+    } else if (pose === 'wave_in') {
+        $('#step-' + stepCounter).hide();
+        $('#step-' + (stepCounter - 1)).show();
+        stepCounter--;
+    }
+    console.log(stepCounter);
+    // $('img.' + pose).attr('src', 'img/' + pose + '_active.png');
     // $('.mainPose img').attr('src', 'img/' + pose + '_active.png');
 });
 
@@ -36,4 +35,22 @@ Myo.on('locked', function(){
 //Whenever a myo unlocks we'll switch the main image to a unlock image
 Myo.on('unlocked', function(){
     // $('.mainPose img').attr('src', 'img/unlocked.png');
+});
+
+
+
+
+$(document).ready(function () {
+    $('html').keydown(function(e) {
+        if(e.keyCode == 37) { // left
+            $('#step-' + stepCounter.toString()).hide();
+            $('#step-' + (stepCounter - 1).toString()).show();
+            stepCounter--;
+        } else if(e.keyCode == 39) { // right
+            $('#step-' + stepCounter).hide();
+            $('#step-' + (stepCounter + 1).toString()).show();
+            stepCounter++;
+        }
+        console.log(stepCounter);
+    });
 });
