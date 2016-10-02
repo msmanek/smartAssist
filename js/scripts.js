@@ -1,10 +1,10 @@
-// Myo Code
+// initialize Myo band
 Myo.connect();
 var stepCounter = 1;
 
-//Whenever we get a pose event, we'll update the image sources with the active version of the image
+//Whenever we get a pose event, check pose type and take an appropriate action
 Myo.on('pose', function(pose){
-    console.log(pose);
+    // console.log(pose);
     if (pose === 'wave_out') {
         $('#step-' + stepCounter).hide();
         $('#step-' + (stepCounter + 1)).show();
@@ -14,9 +14,10 @@ Myo.on('pose', function(pose){
         $('#step-' + (stepCounter - 1)).show();
         stepCounter--;
     }
-    console.log(stepCounter);
+    // console.log(stepCounter);
 });
 
+// you can also control using arrow keys
 $(document).ready(function () {
     $('html').keydown(function(e) {
         if(e.keyCode == 37) { // left
@@ -28,6 +29,6 @@ $(document).ready(function () {
             $('#step-' + (stepCounter + 1).toString()).show();
             stepCounter++;
         }
-        console.log(stepCounter);
+        // console.log(stepCounter);
     });
 });
